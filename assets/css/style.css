@@ -5,6 +5,15 @@
 * License: https://bootstrapmade.com/license/
 */
 
+.rounded-md {
+  border-radius: 20px;
+}
+
+.interests .card {
+  background-color: #09203a00;
+
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -18,7 +27,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #010e1b;
+  background: url('https://static.vecteezy.com/system/resources/previews/007/278/150/non_2x/dark-background-abstract-with-light-effect-vector.jpg');
   background-size: cover;
   left: 0;
   right: 0;
@@ -276,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: #09203a;
+  background: #0f3e74;
 }
 
 #header.header-top .social-links, #header.header-top h2 {
